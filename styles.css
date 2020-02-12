@@ -44,6 +44,8 @@ html {
 .frame {
   border: 1px solid #484848;
   height: 100%;
+
+  flex-direction: column;
 }
 
 .header {
@@ -61,7 +63,7 @@ html {
 }
 
 .header-btn {
-  padding: 5px;
+  padding: 12px;
 
   font-family: "bungee", sans-serif;
   font-size: 1.5rem;
@@ -69,4 +71,39 @@ html {
   background: unset;
   border: unset;
   outline: unset;
+
+  cursor: pointer;
+}
+
+.add {
+  padding: 20px;
+}
+
+.add-form {
+  display: flex;
+  align-items: center;
+}
+
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 64px;
+
+  flex: 1;
+
+  border-bottom: 1px solid var(--abang);
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+
+.add-btn {
+  background: unset;
+  border: unset;
+  padding: 12px;
+
+  font-family: "bungee", sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: lowercase;
 }
